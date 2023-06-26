@@ -1,12 +1,17 @@
 .list {
   display: flex;
+  text-decoration: none;
 }
 
 .list__item {
+  text-decoration: none;
 }
 
 .list__image {
 }
 
 .list__name {
+}
+
+@media (max-width: 480px) {
 }
