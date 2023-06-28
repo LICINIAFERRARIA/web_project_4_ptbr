@@ -1,0 +1,12 @@
+.button {
+  cursor: pointer;
+}
+
+.button_type_edit {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  background: black url(.button_type_edit);
+  color: black;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}

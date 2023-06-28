@@ -14,35 +14,44 @@
         
         <main class="content">
         <section class="profile">
+            <div class="profile__capa">
             <img class="profile__photo" src="imagens/Avatar_profile.png">
+            <div class="profile__description">
+            <div class="profile__dados">
             <h1 class="profile__name">Jacques Cousteau</h1>
             <p class="profile__subtitle">Explorar</p>
+            </div>
+            </div>
+            <button type="button" aria-label="Edit profile" class="button button_type_edit"></button>
+            </div>
             <button class="profile__button">+</button>
+           
+           
         </section>
 
         <section class="elements">
         <ul class="list">
-            <li class="list_item">
+            <li class="list__item">
             <img class="list__image" src="imagens/Vale de Yosemite.jpg" alt="Foto Vale de Yosemite">
             <h2 class="list__name">Vale de Yosemite  &#x2661</h2>
             </li>
-            <li class="list_item">
+            <li class="list__item">
             <img class="list__image" src="imagens/Lago Louise.png" alt="Foto Lago Louise">
             <h2 class="list__name">Lago Louise &#x2661</h2>
             </li>
-            <li class="list_item">
+            <li class="list__item">
             <img class="list__image" src="imagens/Montanhas Care.png" alt="Foto Montanhas Care">
             <h2 class="list__name">Montanhas Care... &#x2661</h2>
             </li>
-            <li class="list_item">
+            <li class="list__item">
             <img class="list__image" src="imagens/Latemar.png" alt="Foto Latemar">
             <h2 class="list__name">Latemar &#x2661</h2>
             </li>
-            <li class="list_item">
+            <li class="list__item">
             <img class="list__image" src="imagens/Vanoise Nationa.png" alt="Foto Vanoise National">
             <h2 class="list__name">Vanoise Nationa... &#x2661</h2>
             </li>
-            <li class="list_item">
+            <li class="list__item">
             <img class="list__name" src="imagens/Lago di Braies.png" alt="Foto Lago di Braies">
             <h2 class="list__name">Lago di Braies &#x2661</h2>
             </li>
@@ -50,13 +59,20 @@
         </section>
 
         <section class="footer">
-            <img class="footer_imagem" src="imagens/Footer.png">
+            <p class="footer_author">© 2021 Around The U.S.</p>
         </section>
+
+        <div class="popup">
+            <button type="button" aria-label="Fechar" class="button button_type_close"></button>
+            <h2 class="edit_profile">Editar Perfil</h2>
+            <h3 class="edit_name">Jacques Cousteau</h3>
+            <h3 class="edit_menu">Explorar</h3>
+            <input type="submit" value="Salvar" class="button button_type_submit popup__button">
+        </div>
 
 
         </main>
-
-
+        <script src="script.js"></script>
 
         </div>
         
